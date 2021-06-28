@@ -12,6 +12,14 @@
     height: 100%;
 }
 
+.card {
+    position: relative;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+}
+
+
 /* /common */
 
 /* main */
@@ -56,13 +64,44 @@ main {
 
 .main-center {
     display: flex;
+    padding: 20px 0;
     width: 95%;
     height: 100%;
 }
 
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+}
+
+.card img {
+    width: 80%;
+    height: 100%;
+}
+
+.card p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+}
+
 .viewer-size {
     position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
 }
+
+.viewer-size button {
+    border-radius: 5px;
+    padding: 5px;
+    background: linear-gradient(0deg, #202020, #393939);
+    color: white;
+}
+
 /* /main */
 
 /* footer */
@@ -91,7 +130,16 @@ footer {
     background-color: red;
 } */
 
-.debug .viewer-size {
-    
-}
+/* .debug .viewer-size {
+    background-color: red;
+} */
 /* /debug */
+
+/* .debug .card {
+    position: relative;
+    width: 20%;
+    height: 20%;
+    border: 1px solid black;
+    background: red;
+} */
+
