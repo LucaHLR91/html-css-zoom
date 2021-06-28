@@ -116,6 +116,27 @@ footer {
     height: 10vh;
     background-color: #212324;
 }
+
+.nav-side {
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+.nav-side div,
+.nav-center div {
+    display: inline-block;
+    font-size: 20px;
+    color: #DCDCDC;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-center {
+    float: left;
+    width: 60%;
+    height: 100%;
+}
 /* /footer */
 
 
@@ -149,3 +170,16 @@ footer {
     background: red;
 } */
 
+/* .debug .nav-side {
+    float: left;
+    width: 20%;
+    height: 100%;
+    background: greenyellow;
+} */
+
+.debug .nav-center {
+    float: left;
+    width: 60%;
+    height: 100%;
+    background: hotpink;
+}
