@@ -69,7 +69,7 @@ main {
 
 .main-center {
     display: flex;
-    padding: 20px 0;
+    padding: 40px 0;
     width: 95%;
     height: 100%;
 }
@@ -80,6 +80,10 @@ main {
     align-content: flex-start;
     width: 100%;
 }
+
+/* .main-box:last-child {
+    border: 1px solid lightgreen;
+} */
 
 
 .card img {
