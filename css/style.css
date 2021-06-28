@@ -117,13 +117,23 @@ footer {
     background-color: #212324;
 }
 
-.nav-side {
+.nav-side-l {
     float: left;
     width: 20%;
     height: 100%;
 }
 
-.nav-side div,
+.nav-side-r {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: left;
+    width: 10%;
+    height: 100%;
+    background: dimgray;
+}
+
+.nav-side-l div,
 .nav-center div {
     display: inline-block;
     font-size: 20px;
@@ -132,10 +142,20 @@ footer {
     padding: 20px;
 }
 
+#ending {
+    color: crimson;
+}
+
+#ending p {
+    font-size: 20px;
+    padding: 10px;
+}
+
 .nav-center {
     float: left;
-    width: 60%;
+    width: 70%;
     height: 100%;
+    text-align: center;
 }
 /* /footer */
 
