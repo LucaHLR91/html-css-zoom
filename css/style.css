@@ -5,6 +5,10 @@
 }
 
 /* common */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     display: flex;
     position: relative;
@@ -17,6 +21,7 @@
     width: 20%;
     height: 20%;
     text-align: center;
+    padding: 20px;
 }
 
 
@@ -76,8 +81,9 @@ main {
     width: 100%;
 }
 
+
 .card img {
-    width: 80%;
+    width: 60%;
     height: 100%;
 }
 
